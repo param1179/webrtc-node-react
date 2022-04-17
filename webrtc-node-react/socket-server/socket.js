@@ -1,5 +1,10 @@
 var activeUsers = [];
 
+/**
+ * 
+ * @param {*} io 
+ */
+
 module.exports = (io) => {
 
     io.on("connection", (socket) => {
